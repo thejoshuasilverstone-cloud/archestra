@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.43](https://github.com/archestra-ai/archestra/compare/platform-v1.2.42...platform-v1.2.43) (2026-05-12)
+
+
+### Bug Fixes
+
+* **security:** clear Docker Scout HIGH CVEs ([#4578](https://github.com/archestra-ai/archestra/issues/4578)) ([5d6b758](https://github.com/archestra-ai/archestra/commit/5d6b7587dd7e541ff71f958460197e0b58ab0586))
+
+
+### Miscellaneous Chores
+
+* reduce shell noncritical startup requests ([#4585](https://github.com/archestra-ai/archestra/issues/4585)) ([fae7a67](https://github.com/archestra-ai/archestra/commit/fae7a674f516cbf7f53c93982c35d438ec48991d))
+
 ## [1.2.42](https://github.com/archestra-ai/archestra/compare/platform-v1.2.41...platform-v1.2.42) (2026-05-12)
 
 
