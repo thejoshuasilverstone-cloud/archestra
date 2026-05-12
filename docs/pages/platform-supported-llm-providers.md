@@ -84,6 +84,25 @@ Azure requires Anthropic deployment metadata when creating Claude deployments: `
 
 See Microsoft's [Claude on Foundry guide](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-claude) for the Azure endpoint and authentication details.
 
+### Anthropic Workload Identity Federation
+
+Archestra can authenticate to the Anthropic API using [Workload Identity Federation](https://platform.claude.com/docs/en/manage-claude/workload-identity-federation) instead of long-lived `sk-ant-...` API keys. The platform reads an OIDC JWT issued by your identity provider, exchanges it for a short-lived Anthropic access token via `POST /v1/oauth/token`, caches the result, and refreshes before expiry.
+
+Set the following to enable WIF on the Anthropic provider:
+
+- `ARCHESTRA_ANTHROPIC_WIF_ENABLED=true`
+- `ARCHESTRA_ANTHROPIC_WIF_FEDERATION_RULE_ID=fdrl_...`
+- `ARCHESTRA_ANTHROPIC_WIF_ORGANIZATION_ID=<UUID of your Anthropic organization>`
+- `ARCHESTRA_ANTHROPIC_WIF_SERVICE_ACCOUNT_ID=svac_...`
+- One of:
+  - `ARCHESTRA_ANTHROPIC_WIF_IDENTITY_TOKEN_FILE=/var/run/secrets/anthropic.com/token` (path to a projected JWT that may rotate on disk; re-read on every exchange)
+  - `ARCHESTRA_ANTHROPIC_WIF_IDENTITY_TOKEN=<literal JWT>` (use when your platform injects the token as an environment variable)
+- `ARCHESTRA_ANTHROPIC_WIF_WORKSPACE_ID=wrkspc_...` (required only when the federation rule is enabled for more than one workspace; may be the literal `default` for the organization's default workspace)
+
+Unset `ARCHESTRA_ANTHROPIC_AZURE_FOUNDRY_ENTRA_ID_ENABLED` when WIF is in use; the Azure Foundry path takes precedence when both are enabled. Per-key API keys configured in **Settings > LLM API Keys** still take precedence over WIF; the federated client only activates when the request has no API key attached.
+
+Configure the federation rule, issuer, and service account in the [Claude Console](https://platform.claude.com/settings/workload-identity-federation) before enabling these variables. See the [WIF reference](https://platform.claude.com/docs/en/manage-claude/wif-reference) for provider-specific issuer setup (AWS, GCP, Azure, GitHub Actions, Kubernetes service accounts).
+
 ## Google Gemini
 
 Archestra supports both the [Google AI Studio](https://ai.google.dev/) (Gemini Developer API) and [Vertex AI](https://cloud.google.com/vertex-ai) implementations of the Gemini API.
