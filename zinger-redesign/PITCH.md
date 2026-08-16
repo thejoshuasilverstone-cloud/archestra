@@ -38,56 +38,90 @@ These are concrete, verifiable issues — lead with them, because the owner can 
 - Aluminum crates at $600–$1,250 are *considered purchases* — buyers research for weeks. The site that answers sizing, series, and proof questions best wins the order, and right now that's their dealers' sites, not theirs.
 - Concrete next-step scope you can quote: (1) this design system applied site-wide, (2) migration to a modern commerce platform (their competitors run Shopify), with 301 redirects cleaning up the five URL conventions and duplicate pages, (3) product photography, (4) a "Which Winger?" selector and size quiz.
 
-### The outreach email (final — pressure-tested)
+### The outreach email (final — pressure-tested, email-only process)
 
-This version was stress-tested against two reviews: one role-playing the skeptical owner
-receiving it, one from a sales veteran. Key rules baked in: never say "I'm a web designer"
-(the instant-delete phrase), show the gift before any criticism, exactly one self-verifiable
-problem, you initiate the phone call, and the typo P.S. answers the fear it raises.
+Stress-tested across three reviews: a skeptical-owner roleplay, a sales-closer critique,
+and an owner re-read of this email-only revision. Rules baked in: never say "I'm a web
+designer" (instant-delete phrase), show the gift before any criticism, exactly one
+self-verifiable problem, no spam vocabulary ("free site audit" nearly killed it), a
+same-day-turnaround promise (speed is how this buyer measures respect), and the whole
+process runs on email — you never place a call, but an inbound one is welcomed.
 
 > **Subject: I rebuilt your crate pages — screenshots inside**
 >
 > Hi [owner's name],
 >
 > Your wingers have about the best reputation on the retriever forums — so before asking
-> you for anything, I rebuilt your crate pages to match. The attached PDF shows the result:
-> your real series, sizes, and prices, checked against your catalog and your dealers'
-> listings. No fluff, all spec.
+> you for anything, I rebuilt your crate pages to match. The attached PDF shows the
+> result: your real series, sizes, and prices, checked against your catalog and your
+> dealers' listings. No fluff, all spec.
 >
 > The quickest way to see why I bothered: pull up zingerwinger.com on your phone next to
-> page one of the PDF. That gap is the whole pitch. (Or tap this on your phone for the
-> working version: [live preview link].)
+> page one of the PDF. That gap is the whole pitch. The working version is here if you'd
+> rather click around: [live preview link]. And if you'd rather not open an attachment
+> from a stranger, everything in the PDF is on that page too.
 >
-> Gunner and Impact sell $700 crates largely on the strength of their websites. Your gear
-> holds up better in the field than it does online — that's the gap I'd like to close.
+> Gunner and Impact get $700 for a crate partly because their websites look like the
+> gear costs it. Your gear holds up better in the field than it does online — that's the
+> gap I'd like to close.
 >
-> I'll give the shop a call Thursday morning to hear what you think — if another time's
-> better, I'm at [phone]. Whatever you decide, I'll send you my one-page site audit free.
-> Thanks for making gear this good.
+> I work the way you'd want a supplier to quote you — everything in writing, in black
+> and white. Hit reply (even just the word "interested" works) and you'll have a
+> one-page plan with the price back the same day: one fixed number, well under agency
+> money. No phone tag, no meetings — I won't chase you on your phone. (If you'd rather
+> pick one up yourself, the number below gets answered.)
+>
+> Whatever you decide, the PDF is yours to keep — hand it to whoever ends up doing the
+> work. Thanks for making gear this good.
 >
 > [Full name]
-> [Town, Province/State] · [phone] · [email]
+> [Town, Province/State] · [email] · [phone]
 >
-> P.S. One detail you may already know: the Field Trialer's web address is spelled
+> P.S. You've heard this one before, I'm sure: the Field Trialer's address is spelled
 > "Field-Trailer." A rebuild fixes that for good — and every old address forwards
 > automatically, so twenty years of links and bookmarks keep working.
 
 **Send mechanics (matter as much as the words):**
 
 - Send Tuesday–Thursday, 7:00–8:30 a.m. — owners read email before the shop opens.
-- Attach ONE file: `zinger-redesign-preview.pdf` (PDFs sail through spam filters and print
-  cleanly for an owner who prints things). Never attach `.html` — mail clients block it.
-- Host a live demo at a clean, readable URL (e.g. `zinger-preview.yourdomain.com`), not a
-  random hash. Take it down if they decline — it uses their brand.
-- Send from `you@yourdomain.com`, not a personal Gmail — a $20 domain + mail setup
-  upgrades you from "guy with gmail" to "business owner like me" and fixes deliverability.
-- **Follow-up sequence, then stop:** Day 0 email → Day 2–3 phone call to the shop ("I'm
-  the fellow who sent the crate-page mockups Tuesday — wanted to make sure they didn't
-  land in spam") → Day 7 two-line bump with the demo link → Day 14 "closing the file"
-  note with the free one-page audit attached as the parting gift. Calling is culturally
-  native to this buyer; his whole brand is 5-minute callbacks. Mirror it.
-- Make the one-page audit real before sending: the `.php` indexing, the five URL formats,
-  the duplicate pages, the typo, mobile usability — one plain-English line each.
+- Attach ONE file: `zinger-redesign-preview.pdf` (PDFs sail through spam filters and
+  print cleanly for an owner who prints things). Never attach `.html` — mail clients
+  block it.
+- Host the live demo at a clean, readable URL (e.g. `zinger-preview.yourdomain.com`),
+  not a random hash. One tap, no sign-up. Take it down if they decline — it uses their
+  brand.
+- Send from `you@yourdomain.com`, not a personal Gmail — fixes credibility and
+  deliverability in one $20 move.
+- **The phone line you never dial still matters.** The likeliest positive response from
+  a phone-first owner is an inbound call to hear your voice. You don't have to make
+  calls — but that number must get answered. If you can't answer live, set a voicemail
+  that converts the call back to email: "You've reached [name]. I'm at the desk, not the
+  phone — leave your name and you'll have an answer in your inbox within the hour."
+  Then honor it. An unanswered signature number kills this exact prospect at the last step.
+- **All-email follow-up sequence, then stop:**
+  - Day 0 — the email above.
+  - Day 4 — two-line bump: "In case Tuesday's note got filtered: the rebuilt crate pages
+    are here — [link]. One tap, nothing to download."
+  - Day 10 — closing note with the parting gift attached: "Closing the file on this —
+    last note, promise. Attached is the one-page list of what I found under the hood:
+    the duplicate page addresses splitting your Google ranking, the internal store pages
+    Google is indexing, the mobile issues, and the Field-Trailer spelling. It's yours
+    either way. If the website ever makes the winter project list, you know where to
+    find me."
+  - Then stop. Three touches is persistence; four is the spam folder.
+- Pre-write the one-page proposal BEFORE sending the cold email, so "back the same day"
+  is a ten-minute promise to keep, not a scramble.
+
+**Reply-handling template (send the same day he replies):**
+
+> Good to hear from you. One page attached, one number on it: **CAD $9,900, fixed** —
+> the full rebuild as shown in the mockups: your store moved to modern software, all
+> products carried over, every old address forwarding, launch included, and 30 days of
+> fixes after launch on me. Two smaller and larger options are on the page too.
+> Payments go CAD $2,500 to start, $4,900 when you've clicked through your own store and
+> approved it, $2,500 at launch — you own everything delivered at each paid stage.
+> If it reads right, reply "go ahead" and I'll send the agreement and first invoice —
+> everything signable from your desk, nothing by phone unless you want it.
 
 ## Pricing (quote in CAD — they're in Ontario; print the currency next to every number)
 
