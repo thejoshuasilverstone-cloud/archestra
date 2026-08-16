@@ -38,15 +38,104 @@ These are concrete, verifiable issues — lead with them, because the owner can 
 - Aluminum crates at $600–$1,250 are *considered purchases* — buyers research for weeks. The site that answers sizing, series, and proof questions best wins the order, and right now that's their dealers' sites, not theirs.
 - Concrete next-step scope you can quote: (1) this design system applied site-wide, (2) migration to a modern commerce platform (their competitors run Shopify), with 301 redirects cleaning up the five URL conventions and duplicate pages, (3) product photography, (4) a "Which Winger?" selector and size quiz.
 
-### Draft outreach email
+### The outreach email (final — pressure-tested)
 
-> Subject: Your crates outsell your website
+This version was stress-tested against two reviews: one role-playing the skeptical owner
+receiving it, one from a sales veteran. Key rules baked in: never say "I'm a web designer"
+(the instant-delete phrase), show the gift before any criticism, exactly one self-verifiable
+problem, you initiate the phone call, and the typo P.S. answers the fear it raises.
+
+> **Subject: I rebuilt your crate pages — screenshots inside**
 >
-> Hi — I'm a web designer, and I found you the way your customers do: through the gun-dog forums, where Zinger's reputation is about as good as it gets. Then I clicked through to zingerwinger.com, and it isn't doing your products justice — Google is indexing raw `.php` pages, one of your product URLs spells Field Trialer as "Trailer," and the site is hard to use on a phone, where most of your traffic now arrives.
+> Hi [owner's name],
 >
-> Rather than send a proposal, I built the redesign first. The attached page is a working concept of your crate line — your real series, sizes, and story — in a design built the way you build crates. If you like it, I'd love to walk you through what a full rebuild costs and what it typically does for direct sales at your price point. If not, keep the design audit with my compliments.
+> Your wingers have about the best reputation on the retriever forums — so before asking
+> you for anything, I rebuilt your crate pages to match. The attached PDF shows the result:
+> your real series, sizes, and prices, checked against your catalog and your dealers'
+> listings. No fluff, all spec.
 >
-> [name / contact]
+> The quickest way to see why I bothered: pull up zingerwinger.com on your phone next to
+> page one of the PDF. That gap is the whole pitch. (Or tap this on your phone for the
+> working version: [live preview link].)
+>
+> Gunner and Impact sell $700 crates largely on the strength of their websites. Your gear
+> holds up better in the field than it does online — that's the gap I'd like to close.
+>
+> I'll give the shop a call Thursday morning to hear what you think — if another time's
+> better, I'm at [phone]. Whatever you decide, I'll send you my one-page site audit free.
+> Thanks for making gear this good.
+>
+> [Full name]
+> [Town, Province/State] · [phone] · [email]
+>
+> P.S. One detail you may already know: the Field Trialer's web address is spelled
+> "Field-Trailer." A rebuild fixes that for good — and every old address forwards
+> automatically, so twenty years of links and bookmarks keep working.
+
+**Send mechanics (matter as much as the words):**
+
+- Send Tuesday–Thursday, 7:00–8:30 a.m. — owners read email before the shop opens.
+- Attach ONE file: `zinger-redesign-preview.pdf` (PDFs sail through spam filters and print
+  cleanly for an owner who prints things). Never attach `.html` — mail clients block it.
+- Host a live demo at a clean, readable URL (e.g. `zinger-preview.yourdomain.com`), not a
+  random hash. Take it down if they decline — it uses their brand.
+- Send from `you@yourdomain.com`, not a personal Gmail — a $20 domain + mail setup
+  upgrades you from "guy with gmail" to "business owner like me" and fixes deliverability.
+- **Follow-up sequence, then stop:** Day 0 email → Day 2–3 phone call to the shop ("I'm
+  the fellow who sent the crate-page mockups Tuesday — wanted to make sure they didn't
+  land in spam") → Day 7 two-line bump with the demo link → Day 14 "closing the file"
+  note with the free one-page audit attached as the parting gift. Calling is culturally
+  native to this buyer; his whole brand is 5-minute callbacks. Mirror it.
+- Make the one-page audit real before sending: the `.php` indexing, the five URL formats,
+  the duplicate pages, the typo, mobile usability — one plain-English line each.
+
+## Pricing (quote in CAD — they're in Ontario; print the currency next to every number)
+
+Three build tiers, presented middle-first. The premium tier exists mostly to make the
+middle one the sane choice. There is deliberately NO cheap "design-only" tier — selling
+the mockups alone invites the owner to hand them to a cheaper developer and you lose the
+build, the case study, and the retainer.
+
+| Tier | Price | What's in it |
+|---|---|---|
+| Essentials | **CAD $7,500** | Shopify store, this design as a custom theme, 60 SKUs migrated as-is, full 301-redirect map, launch + 30 days of fixes. No size-finder. |
+| **Recommended** | **CAD $9,900** (≈ USD $7,300) | Everything in the mockup: size-finder, guarantee/dealer/support pages, ~150 SKUs, redirect map, analytics, launch + 30 days of fixes. |
+| The Works | CAD $15,900 | Adds a product-photography day at the Milton shop, copywriting, email flows, and a dealer/wholesale portal. |
+
+**Negotiation stance:** hold the price; trade everything else. Do not pre-authorize
+yourself a discount — a price that slides 27% under pressure tells a man who negotiates
+suppliers for a living that every number you say is padded. Your one prepared concession
+is the **founding-client credit**: "CAD $9,900 — but $8,400 for my first manufacturing
+client, in exchange for a testimonial, case-study rights, and two introductions to other
+gun-dog brands." That buys the portfolio you don't have yet.
+
+**Payment schedule** (built for a buyer who won't wire thousands to a stranger):
+CAD $2,500 to start → CAD $4,900 when he clicks through the staging store with his real
+products in it → CAD $2,500 at launch. He owns everything delivered at each paid stage.
+Use a real contract and invoice — paperwork is credibility when you have no references.
+
+**Assumptions block (put it in the written quote — this is what saves you):** migration
+uses existing product photos and copy as-is; new photography, copywriting, and logo work
+are quoted separately; product data arrives in one export; two revision rounds on the
+theme; anything beyond is change-ordered at CAD $95–110/hr. Legacy-cart product data is
+the #1 scope-creep sinkhole in this kind of job.
+
+**Care plan (offer at handoff, not on the first call):** CAD $325/mo starting day 31,
+three-month minimum then month-to-month — up to 2 hours of updates with a same-day
+response promise. Pitch it as "my version of your five-minute callback." Offer the
+alternative of straight hourly billing; having the no-retainer option is what makes him
+consider the retainer. Annual prepay at ten months' price.
+
+**Value framing for the call:** every order that comes direct instead of through a dealer
+keeps the dealer's margin in his pocket — the site pays for itself moving a couple of
+orders a month from dealer to direct. Disclose his ongoing costs honestly: Shopify
+$39–105/mo plus ~2.9% card processing.
+
+**Market context (why these numbers are defensible):** freelance small-business builds
+run $1,500–8,000; Shopify redesigns start around $3,000 freelance and $5,000+ at
+agencies; platform migration typically adds $3,000+ on its own. CAD $9,900 (~USD $7,300)
+for design + build + migration + redirects sits squarely in the fair-freelancer band and
+far under any agency quote he'd get for the same scope.
 
 ## Fact-check before presenting (important)
 
@@ -59,7 +148,21 @@ Everything on the mockup was researched from Zinger's pages and their dealers' l
 - **"TIG-welded"**: dealers say "welded aluminum" / "double-welded"; TIG is the standard process for aluminum but confirm their shop's word for it.
 - The **maple-leaf/Made-in-Canada** claim is confirmed (Milton, Ontario shop; "Made in Canada" on dealer listings).
 
+## Getting real screenshots & photos into the mockup
+
+The mockup was built in a cloud session whose network policy blocks outside websites, so
+the product art is technical-drawing SVG (which reads as intentional). To upgrade it with
+the live site's "before" screenshots and real product photography, run a **local** Claude
+Code session on a machine with normal internet:
+
+1. Open the Claude Code desktop app (or `claude` in a terminal) on your machine.
+2. Clone the repo and check out this branch:
+   `git clone https://github.com/thejoshuasilverstone-cloud/archestra && cd archestra && git checkout claude/zinger-website-redesign-jgmbpg`
+3. Paste this prompt:
+   > Open zinger-redesign/index.html. Fetch https://www.zingerwinger.com/zinger-dog-crates/ and its product pages. Screenshot the live site at desktop and mobile widths for a "before" record, download 4–6 of their product photos, and swap them into the mockup's hero and series cards (keep the technical-drawing art as secondary accents). Verify every price, dimension, and series name on the page against the live site and fix any that differ. Rebuild zinger-redesign-preview.pdf with a before/after spread as page one. Commit to this branch and push.
+
 ## Files
 
 - `index.html` — the mockup. Self-contained (fonts and artwork embedded); open directly in a browser.
+- `zinger-redesign-preview.pdf` — 6-page visual preview; this is what you attach to the email.
 - `PITCH.md` — this document.
