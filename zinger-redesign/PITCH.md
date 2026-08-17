@@ -75,8 +75,10 @@ process runs on email — you never place a call, but an inbound one is welcomed
 > Whatever you decide, the PDF is yours to keep — hand it to whoever ends up doing the
 > work. Thanks for making gear this good.
 >
-> [Full name]
-> [Town, Province/State] · [email] · [phone]
+> Joshua Silverstone
+> Toronto, Ont. — about 40 minutes up the highway from your Milton shop
+> [phone — must be answered, or use the desk-not-phone voicemail script]
+> [joshua@yourdomain.com — set up before sending]
 >
 > P.S. You've heard this one before, I'm sure: the Field Trialer's address is spelled
 > "Field-Trailer." A rebuild fixes that for good — and every old address forwards
