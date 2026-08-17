@@ -58,8 +58,9 @@ process runs on email — you never place a call, but an inbound one is welcomed
 >
 > The quickest way to see why I bothered: pull up zingerwinger.com on your phone next to
 > page one of the PDF. That gap is the whole pitch. The working version is here if you'd
-> rather click around: [live preview link]. And if you'd rather not open an attachment
-> from a stranger, everything in the PDF is on that page too.
+> rather click around: https://zinger-preview-thejoshuasilverstone-6895s-projects.vercel.app
+> And if you'd rather not open an attachment from a stranger, everything in the PDF is on
+> that page too.
 >
 > Gunner and Impact get $700 for a crate partly because their websites look like the
 > gear costs it. Your gear holds up better in the field than it does online — that's the
@@ -87,9 +88,13 @@ process runs on email — you never place a call, but an inbound one is welcomed
 - Attach ONE file: `zinger-redesign-preview.pdf` (PDFs sail through spam filters and
   print cleanly for an owner who prints things). Never attach `.html` — mail clients
   block it.
-- Host the live demo at a clean, readable URL (e.g. `zinger-preview.yourdomain.com`),
-  not a random hash. One tap, no sign-up. Take it down if they decline — it uses their
-  brand.
+- The live demo is deployed and public (no login, `noindex` so it stays out of Google):
+  `https://zinger-preview-thejoshuasilverstone-6895s-projects.vercel.app` — the Vercel
+  project is `zinger-preview` on your account. The team-suffixed URL works but is long;
+  before sending, consider adding a shorter free alias in Vercel (Project → Settings →
+  Domains — `zinger-preview.vercel.app` is taken by someone else, so try a variant like
+  `zinger-crate-preview.vercel.app`), or point `zinger-preview.yourdomain.com` at it once
+  you own a domain. Take the page down if they decline — it uses their brand.
 - Send from `you@yourdomain.com`, not a personal Gmail — fixes credibility and
   deliverability in one $20 move.
 - **The phone line you never dial still matters.** The likeliest positive response from
@@ -101,7 +106,8 @@ process runs on email — you never place a call, but an inbound one is welcomed
 - **All-email follow-up sequence, then stop:**
   - Day 0 — the email above.
   - Day 4 — two-line bump: "In case Tuesday's note got filtered: the rebuilt crate pages
-    are here — [link]. One tap, nothing to download."
+    are here — https://zinger-preview-thejoshuasilverstone-6895s-projects.vercel.app
+    One tap, nothing to download."
   - Day 10 — closing note with the parting gift attached: "Closing the file on this —
     last note, promise. Attached is the one-page list of what I found under the hood:
     the duplicate page addresses splitting your Google ranking, the internal store pages
