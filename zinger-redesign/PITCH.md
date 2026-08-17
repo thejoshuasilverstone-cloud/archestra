@@ -133,6 +133,13 @@ process runs on email — you never place a call, but an inbound one is welcomed
 
 ## Pricing (quote in CAD — they're in Ontario; print the currency next to every number)
 
+> **FINAL AS QUOTED — Aug 16, 2026.** Rob Sampson (Zinger) replied same-day ("You have my
+> attention"). Numbers were re-anchored down at Jonny's decision before sending the
+> proposal: **list CAD $7,900 / founding-client CAD $6,900** (testimonial + case-study
+> rights), stages $2,000 / $3,900 ($2,900 at founding price) / $2,000, Essentials $5,900,
+> The Works $12,900. These are now fixed — negotiate scope and terms, never dollars.
+> The prose below predates that decision; where numbers differ, the quoted PDF governs.
+
 Three build tiers, presented middle-first. The premium tier exists mostly to make the
 middle one the sane choice. There is deliberately NO cheap "design-only" tier — selling
 the mockups alone invites the owner to hand them to a cheaper developer and you lose the
